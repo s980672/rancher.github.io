@@ -126,7 +126,7 @@ services:
     stdin_open: true
 ```
 <br>
-In this example, the `database` would be resolvable as `mongo`. Without the link, `database` would be resolvable as `database` fro the _web_ service.
+In this example, the `database` would be resolvable as `mongo`. Without the link, `database` would be resolvable as `database` from the _web_ service.
 
 For services in a different stack, the service is DNS already resolvable by `service_name.stack_name`. If you'd prefer to use a specific alias for DNS resolution, you can use `external_links` in the `docker-compose.yml`.
 
